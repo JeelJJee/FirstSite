@@ -1,0 +1,115 @@
+nav {
+    font-family: monospace;
+    display: flex; 
+    flex-direction: row;
+
+}
+
+ul {
+  background: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+
+}
+
+li {
+    color: rgb(51, 138, 156);
+
+    background: rgb(51, 178, 186);
+    /* Любишь флоаты, люби и clearfix'выставлять  */
+    float: left;
+    position: relative;
+    transition-duration: 0.25s; 
+
+
+  }
+  
+li a {
+  color: rgb(51, 138, 156);
+
+  padding: 1rem;
+  min-width: 100px;
+  display: block;
+  text-decoration: none;
+  color: rgb(51, 138, 156);
+}
+
+li:hover,
+li:focus-within {
+
+    background: rgb(51, 138, 158);
+    cursor: pointer;
+}
+
+
+ul li ul {   
+  background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0;
+    left: 0;
+  display: none;
+
+  
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+
+}
+
+.nav-header-main{
+    display: inline-block;
+
+}
+
+}
+.header-login{
+  display: inline-block;
+ 
+
+}
+.main{
+
+  
+  padding: 80px;
+  padding top: 10px;
+}
+.wrapper-main{
+    word-wrap: normal;
+    overflow:hidden;
+
+    background: rgb(51, 138, 156);
+    border: 2px solid black;  /* Параметры рамки */
+   padding: 80px; /* Поля вокруг текста */
+}
+ 
+
+ a.rollover {
+    background: url(img/e.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 128px; /* Ширина рисунка */
+    height: 128px; /*  Высота рисунка */
+   }
+   a.rollover:hover {
+    background: url(img/e2.png);
+    
+   }
+
