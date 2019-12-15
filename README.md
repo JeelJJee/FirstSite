@@ -1,4 +1,4 @@
-Admin panel for CRUD artocles:
+Admin panel for articles CRUD:
 Login: ccc
 Password: ccc
-SQL for import to pma put on mysql folder. 
+SQL for import to pma is in the mysql folder. 
