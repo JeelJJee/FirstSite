@@ -1,4 +1,4 @@
-Админка для добавления статей с картинкой и удаления статей
+Admin panel for CRUD artocles:
 Login: ccc
 Password: ccc
-SQL для импортирования в pma лежит со всеми файлами. Называется bal.sql
+SQL for import to pma put on mysql folder. 
